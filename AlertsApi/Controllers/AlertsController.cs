@@ -40,7 +40,7 @@ namespace AlertsApi.Controllers
                     Detail = "This is a test alert. No action required.",
                     TimeStamp = DateTime.Now.ToString(),
                     Location = new Location { wkid = "4326", x = 115.860458, y = -31.950527 },
-                }); ;
+                }); 
                 _dbContext.SaveChanges();
             }
         }
